@@ -267,4 +267,13 @@ endif
 
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -sf egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -sf egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
+ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
+
+RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
+$(foreach f, $(notdir $(RADIO_FILES)), \
+    $(call add-radio-file,radio/$(f)))
+$(call add-radio-file,../../../device/oneplus/cheeseburger/radio/filesmap)
+
+endif
+
 endif
