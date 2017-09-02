@@ -346,10 +346,8 @@ ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/oneplus/cheeseburger/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/oneplus/cheeseburger/proprietary/bin/cnd:system/bin/cnd \
     vendor/oneplus/cheeseburger/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/oneplus/cheeseburger/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/oneplus/cheeseburger/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/oneplus/cheeseburger/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/oneplus/cheeseburger/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oneplus/cheeseburger/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -766,13 +764,9 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     shutdownlistener \
-    CNEService \
     QtiTetherService \
-    com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
-    ims \
     imssettings \
     qcnvitems \
     qcrilhook
