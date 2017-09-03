@@ -513,6 +513,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libprotobuf-cpp-fulx.so:system/vendor/lib/libprotobuf-cpp-fulx.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libprotobuf-cpp-litx.so:system/vendor/lib/libprotobuf-cpp-litx.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -691,6 +693,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libprotobuf-cpp-fulx.so:system/vendor/lib64/libprotobuf-cpp-fulx.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libprotobuf-cpp-litx.so:system/vendor/lib64/libprotobuf-cpp-litx.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
