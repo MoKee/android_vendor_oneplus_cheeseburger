@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/lib/lib_oneplus_facebeauty.so:system/lib/lib_oneplus_facebeauty.so \
     vendor/oneplus/cheeseburger/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
     vendor/oneplus/cheeseburger/proprietary/lib/lib_oneplus_watermark.so:system/lib/lib_oneplus_watermark.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libfilter-sdk.so:system/lib/libfilter-sdk.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmms_gyro_vstab.so:system/lib/libmms_gyro_vstab.so \
@@ -86,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/lib/libmms_warper_vstab.so:system/lib/libmms_warper_vstab.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmorpho_image_stab4.so:system/lib/libmorpho_image_stab4.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
+    vendor/oneplus/cheeseburger/proprietary/lib/libopbaselib.so:system/lib/libopbaselib.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libopcamera.so:system/lib/libopcamera.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libopcamera_crypt.so:system/lib/libopcamera_crypt.so \
     vendor/oneplus/cheeseburger/proprietary/lib/libopcamera_native_modules.so:system/lib/libopcamera_native_modules.so \
@@ -98,6 +100,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
+    vendor/oneplus/cheeseburger/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/libteeclientjniv2.so:system/lib64/libteeclientjniv2.so \
