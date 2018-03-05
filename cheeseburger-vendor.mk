@@ -21,18 +21,18 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/oneplus/cheeseburger/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
     vendor/oneplus/cheeseburger/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:system/vendor/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/oneplus/cheeseburger/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
-    vendor/oneplus/cheeseburger/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/cheeseburger/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+    vendor/oneplus/cheeseburger/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_PACKAGES += \
     SmartcardService \
